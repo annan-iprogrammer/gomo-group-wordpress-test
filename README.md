@@ -1,30 +1,45 @@
-WordPress Website Setup Steps
-Clone the Project Repository
-bash
-Copy code
+# WordPress Website Setup Steps
 
+Follow these steps to set up the WordPress website locally or on a staging environment.
+
+## 1. Clone the Project Repository
+
+```bash
 git clone https://github.com/annan-iprogrammer/gomo-group-wordpress-test.git
+```
 
-Configure wp-config.php
-Update database name, username, and password as per your local/staging environment.
+## 2. Configure `wp-config.php`
 
-Set Up Database
-Create a new database in your local/stage environment.
-Import the provided database dump into the newly created database.
+Update the following details in the `wp-config.php` file:
 
-Update Site URL in the Database
+- Database name
+- Database username
+- Database password
+- (Optional) Other environment-specific settings
+
+## 3. Set Up the Database
+
+- Create a new database in your local/staging environment.
+- Import the provided database dump file into the new database.
+
+## 4. Update Site URL in the Database
+
 Run the following SQL query to update the site URL:
-sql
-Copy code
 
-UPDATE wp_options
-SET option_value = 'http://your-local-or-staging-url.com'
+```sql
+UPDATE wp_options 
+SET option_value = 'http://your-local-or-staging-url.com' 
 WHERE option_name IN ('siteurl', 'home');
+```
 
-Update URLs in Elementor
-Go to Elementor → Tools → Replace URL
-Replace the old domain with your new local/stage URL.
+## 5. Update URLs in Elementor
 
-Use below details for admin login
-User Name: inter@medics
-Password: an09ek5TQ@HD5U
+- Navigate to `Elementor → Tools → Replace URL`.
+- Replace the old site URL with your local/staging URL.
+
+## 6. Admin login details 
+
+- User Name: inter@medics
+- Password: an09ek5TQ@HD5U
+
+---
