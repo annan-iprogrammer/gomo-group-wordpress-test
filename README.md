@@ -24,3 +24,7 @@ WHERE option_name IN ('siteurl', 'home');
 Update URLs in Elementor
 Go to Elementor → Tools → Replace URL
 Replace the old domain with your new local/stage URL.
+
+Use below details for admin login
+User Name: inter@medics
+Password: an09ek5TQ@HD5U
