@@ -1,0 +1,21 @@
+Aug 07 2025 15:18:37
+{"Number":2,"Message":"fopen(\/var\/www\/html\/gomo\/wp-content\/themes\/intermedics-child\/style.css.save): Failed to open stream: Permission denied","File":"\/var\/www\/html\/gomo\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":488}
+
+Aug 07 2025 15:18:37
+{"Number":2,"Message":"fopen(\/var\/www\/html\/gomo\/wp-content\/themes\/intermedics-child\/.style.css.swp): Failed to open stream: Permission denied","File":"\/var\/www\/html\/gomo\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":488}
+
+Aug 07 2025 15:18:37
+{"Number":2,"Message":"fopen(\/var\/www\/html\/gomo\/wp-content\/themes\/intermedics-child\/style.css): Failed to open stream: Permission denied","File":"\/var\/www\/html\/gomo\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":488}
+
+Aug 07 2025 15:18:37
+{"Number":2,"Message":"fopen(\/var\/www\/html\/gomo\/wp-content\/themes\/intermedics-child\/screenshot.png): Failed to open stream: Permission denied","File":"\/var\/www\/html\/gomo\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":488}
+
+Aug 07 2025 15:18:37
+{"Number":2,"Message":"fopen(\/var\/www\/html\/gomo\/wp-content\/themes\/intermedics-child\/functions.php): Failed to open stream: Permission denied","File":"\/var\/www\/html\/gomo\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":488}
+
+Aug 07 2025 15:18:37
+{"Number":2,"Message":"fopen(\/var\/www\/html\/gomo\/wp-content\/themes\/intermedics-child\/functions.php.save): Failed to open stream: Permission denied","File":"\/var\/www\/html\/gomo\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":488}
+
+Aug 07 2025 15:18:37
+{"Number":2,"Message":"fopen(\/var\/www\/html\/gomo\/wp-content\/themes\/intermedics-child\/.style.css.swo): Failed to open stream: Permission denied","File":"\/var\/www\/html\/gomo\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":488}
+

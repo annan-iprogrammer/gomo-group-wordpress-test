@@ -37,9 +37,9 @@ function intermedics_services_grid($atts) {
 
     ob_start();
 
-    if ($query->have_posts()) {
+    if ($query->have_posts()) { 
         while ($query->have_posts()) {
-            $query->the_post();
+            $query->the_post(); 
 			$section_title   = get_field('section_title');
 			$feature_list      = get_field('feature_list');
 			?>
@@ -61,8 +61,8 @@ function intermedics_services_grid($atts) {
                         <!-- Image Column -->
                         <div class="col-lg-6 text-center service-img">
                             <?php if (has_post_thumbnail()) : ?>
-                                <img src="<?php the_post_thumbnail_url('full'); ?>"
-                                     class="img-fluid"
+                                <img src="<?php the_post_thumbnail_url('full'); ?>" 
+                                     class="img-fluid" 
                                      alt="<?php the_title_attribute(); ?>" loading="lazy">
                             <?php endif; ?>
                         </div>
@@ -107,7 +107,7 @@ function partners_section_shortcode($atts) {
               $logo_url = get_the_post_thumbnail_url(get_the_ID(), 'full');
               $description = get_the_excerpt();
 
-              if ($i === 1):
+              if ($i === 1): 
           ?>
           <!-- First post big column -->
           <div class="col-lg-6 d-flex align-items-center mb-5">
@@ -192,7 +192,7 @@ function news_event_section_shortcode() {
 
                             <?php if ( $event_date = get_field('event_date') ) : ?>
                                 <div class="display-6 mb-4 eventdate">
-                                    <?php echo date('d', strtotime($event_date)); ?>
+                                    <?php echo date('d', strtotime($event_date)); ?> 
                                     <small class="d-block fs-6"><?php echo date('M', strtotime($event_date)); ?></small>
                                 </div>
                             <?php endif; ?>
@@ -248,13 +248,13 @@ function news_event_section_shortcode() {
                                     <div class="flex-grow-1">
                                         <div class="mb-3">
                                             <span class="badge text-uppercase small badge-title">
-											<?php
+											<?php 
 											if(!empty($event_date) && $section_title) {
 												echo $section_title .' | ' .date('j F,Y', strtotime($event_date));;
 											}else{
 												echo !empty($section_title) ? $section_title : '';
 											}
-											?>
+											?>  
                                             </span>
                                         </div>
                                         <h6 class="mb-3 fw-bold h-title">

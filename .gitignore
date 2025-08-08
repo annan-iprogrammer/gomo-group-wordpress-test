@@ -3,15 +3,9 @@ wp-config.php
 wp-config-sample.php
 .htaccess
 
-# Database dumps and exports
-*.sql
-
 # User-generated uploads
 wp-content/uploads/
 wp-content/upgrade/
-
-# Ignore all plugins and themes EXCEPT custom ones
-wp-content/plugins/
 
 # Ignore WordPress core (optional)
 wp-admin/
